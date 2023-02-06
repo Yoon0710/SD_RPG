@@ -8,5 +8,3 @@ It is an RPG mobile game made with Unity.
 
 - Unity 2021.3.5f1
 
-# SD_RPG_Unity
-# SD_RPG
