@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f67901067f0a6394b9d3050950c65749, type: 3}
+  m_Name: SavePrincess_01.KillMonsters
+  m_EditorClassIdentifier: 
+  state: 0
+  title: "\uFF1C\u5F37\u3055\u306E\u8A3C\u660E\uFF1E"
+  content: "\u30DF\u30E5\u30EB\u30CB\u30B9\u738B\u56FD\u306E\u304A\u59EB\u69D8\u304C\u9B54\u738B\u306B\u6355\u307E\u3063\u3066\u3057\u307E\u3063\u305F\u3088\uFF01
+    \u304A\u59EB\u69D8\u3092\u6551\u3046\u306B\u306F\u5F37\u3044\u4EBA\u3060\u3051\u3044\u304F\u3053\u3068\u304C\u3067\u304D\u308B\u3002
+    \u541B\u304C\u3069\u308C\u3060\u3051\u5F37\u3044\u306E\u304B\u8A66\u3057\u3066\u307F\u306A\u3044\u3068\u3002\r\n\r\n\u9752\u3044\u30AB\u30BF\u30C4\u30E0\u30EA\u3092\u5012\u3059\u3068\u51FA\u3066\u304F\u308B<color=red>\u9752\u3044\u30AB\u30BF\u30C4\u30E0\u30EA\u306E\u7532\u6BBB10\u500B</color>\u3001\u6012\u3063\u305F\u7BB1\u3092\u5012\u3059\u3068\u51FA\u3066\u304F\u308B<color=red>\u7BB15\u500B</color>\u3092\u6301\u3063\u3066\u304D\u3066\u3002"
+  completeDialog: "\u3042\u306A\u305F\u3001\u672C\u5F53\u306B\u5F37\u3044\u306D\u2026\uFF01\u30DC\u30B9\u3092\u5012\u3057\u306B\u3044\u3051\u308B\u305E\uFF01\n"
+  collectObjectives:
+  - item: {fileID: 11400000, guid: b0e2214bdf6cb6044b315cf347b636e5, type: 2}
+    amount: 10
+  - item: {fileID: 11400000, guid: b1b2c912a36d1ec4abf2b08f63ddbb29, type: 2}
+    amount: 5
+  rewards:
+    ItemReward: {fileID: 11400000, guid: 53ba314436087af4fb7af8fcacbbb057, type: 2}
+    ItemRewardCount: 8
+    EXPReward: 30
